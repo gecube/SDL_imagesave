@@ -44,8 +44,8 @@ extern "C" {
 #include <setjmp.h>
 #include <jpeglib.h>
 #include <jerror.h>            // Gets us the various ERREXIT macros
-#include <IMG_savejpg.h>
-#include <IMG_saveend.h>
+#include "IMG_savejpg.h"
+#include "IMG_saveend.h"
 
 /* Uncomment this, or set it as a compiler option, to prevent libjpeg 
  * printing warning messages to stderr

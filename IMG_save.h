@@ -92,7 +92,7 @@
 #ifndef __IMG_SAVE_
 #define __IMG_SAVE_
 
-#include <IMG_savepng.h>
-#include <IMG_savejpg.h>
+#include "IMG_savepng.h"
+#include "IMG_savejpg.h"
 
 #endif //#ifndef __IMG_SAVE_
